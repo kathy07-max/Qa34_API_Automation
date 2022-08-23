@@ -9,7 +9,7 @@ import lombok.ToString;
 @Builder
 @Getter
 @Setter
-public class AuthResponseWrongFormatDto {
+public class ErrorResponseDto {
     int code;
     String details;
     String message;
